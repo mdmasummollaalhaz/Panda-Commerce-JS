@@ -1,0 +1,125 @@
+/* ---------------------
+** Global CSS
+---------------------- */
+*{
+    padding: 0;
+    margin: 0;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 40px;
+    border: 1px solid #000;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+.hover_shadow{
+    box-shadow: 0 0.5rem 2rem rgba(0,0,0,.105);
+}
+.hover_shadow:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+
+/* ---------------------
+** Header CSS
+---------------------- */
+.headerBlur{
+    padding: 16px 0px;
+    transition: color 350ms ease,background-color 350ms ease;
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+}
+.nav-item {
+    padding-left: 20px;
+}
+.seacthWidth{
+    width: 400px;
+}
+.amount{
+    padding-bottom: 30px;
+}
+
+/* ---------------------
+** Categories
+---------------------- */
+.categorieHover a{
+    text-decoration: none;
+}
+.categorieHover h1{
+    transition: 0.3s ease;
+}
+.categorieHover:hover h1{
+    font-size: 2.8rem;
+}
+
+/* ---------------------
+** Subcription
+---------------------- */
+.subcription{
+    height: 300px;
+    background-color: #FFF2F1;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.subsInput{
+    background-color: transparent;
+    color: #000;
+    padding: 9px 40px;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+}
+/* ---------------------
+** Footer
+---------------------- */
+footer{
+    background-color: #0A0826;
+    padding: 50px 0px;
+}
+.company-name h1{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.copyright p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.social-icon{
+    margin-top: 25px;
+}
+.social-icon .fab{
+    color: #fff;
+    background-color: #22213C;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.social-icon .fab:hover{
+    color: #1e1d3b;
+    background-color: #fff;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .seacthWidth{
+        width: 100%;
+    }
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .seacthWidth{
+        width: 100%;
+    }
+    
+  }
